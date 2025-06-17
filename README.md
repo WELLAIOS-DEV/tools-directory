@@ -44,7 +44,7 @@ The WELLAIOS Tools Framework is built with flexibility, security, and developer 
 
 - **Addressing the Multi-User Challenge**:
 
-  - **The Problem**: Traditional MCP tool server implementations often assume a single-user environment, where a server serves only one user. This model is practical for offline applications like "Claude Desktop," where MCP servers are installed and run locally. However, for a multi-user platform like WELLAIOS, this limitation presents a significant challenge for user authorization and data isolation.
+  - **The Problem**: Conventional MCP tool server implementations often assume a single-user environment, where a server serves only one user. This model is practical for offline applications like "Claude Desktop," where MCP servers are installed and run locally. However, for a multi-user platform like WELLAIOS, this limitation presents a significant challenge for user authorization and data isolation.
 
   - **Our Direction**:
 
@@ -60,7 +60,7 @@ The WELLAIOS Tools Framework is built with flexibility, security, and developer 
 
   - **Security**: Centralizing authorization logic within the tool server promotes a more secure architecture, reducing the surface area for unauthorized access.
 
-  - **Flexibility**: Developers can choose their preferred hosting environment (e.g., AWS Lambda, dedicated Python servers) while maintaining a consistent authorization paradigm.
+  - **Flexibility**: Developers can choose their preferred hosting environment (e.g., AWS Lambda, dedicated servers) while maintaining a consistent authorization paradigm.
 
 ## Roles within the WELLAIOS Ecosystem
 
@@ -133,6 +133,12 @@ Each tool repository serves as a practical demonstration of specific capabilitie
 3. **GeoLocator Tool**:
 
    - **Highlights**: The [`tool-googlemap-serverless`](https://github.com/WELLAIOS-DEV/tool-googlemap-serverless) and [`tool-googlemap-python`](https://github.com/WELLAIOS-DEV/tool-googlemap-python) repos demonstrate the ability to **integrate seamlessly with external APIs (Google Maps)** and enrich AI agent output with contextual links and **preview images**. The ability to obtain and pass back URLs of relevant images enhances the AI agent's ability to present results more intuitively to the end-user.
+
+## Contributing
+
+We welcome and encourage contributions to WELLAIOS and the individual tool repositories! Your involvement helps us expand capabilities, fix issues, and improve the overall ecosystem.
+
+Before contributing, please take a moment to review our [Contributing Guidelines](CONTRIBUTING.md).
 
 ## License
 
